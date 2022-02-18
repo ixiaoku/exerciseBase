@@ -7,3 +7,4 @@ com\dcr\jvm\JOLExample1$A.class
 com\dcr\App.class
 com\dcr\callable\CallableThread.class
 com\dcr\enums\TimeEnum.class
+com\dcr\reflect\ReflectAppleTest.class

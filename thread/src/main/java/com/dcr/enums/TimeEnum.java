@@ -49,6 +49,7 @@ public enum TimeEnum {
 
         for (TimeEnum timeEnum : TimeEnum.values()) {
             if(code.equals(timeEnum.getCode())) {
+                System.out.println(timeEnum.getValue());
                 return timeEnum;
             }
         }

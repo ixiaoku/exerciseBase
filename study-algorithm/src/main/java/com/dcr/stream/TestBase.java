@@ -8,10 +8,12 @@ package com.dcr.stream;
 public class TestBase {
 
     public static void main(String[] args){
-        Integer a1 = 119;
-        Integer a2 = 119;
-        System.out.println(a1.equals(a2));
-        System.out.println(a1 == a2);
+        Integer a1 = Integer.valueOf(325);
+        Integer a3 = 325;
+        Integer a2 = new Integer(125);
+        System.out.println(a1.equals(a3));
+        System.out.println(a1 == a3);
+        boolean flag = false;
     }
 
 }

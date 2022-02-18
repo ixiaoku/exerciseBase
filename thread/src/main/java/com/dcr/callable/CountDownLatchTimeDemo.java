@@ -4,7 +4,6 @@ package com.dcr.callable;
 import com.dcr.enums.TimeEnum;
 
 import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * @descriptions: 线程按顺序执行
@@ -13,7 +12,7 @@ import java.util.concurrent.ThreadPoolExecutor;
  */
 public class CountDownLatchTimeDemo {
 
-    private final static int cnt = 6;
+    private final static int cnt = 7;
 
     public static void main(String[] args) throws InterruptedException {
 
